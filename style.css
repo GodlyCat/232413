@@ -1,4 +1,5 @@
-div{
+section, 
+header{
       display: flex;
       flex-direction: column;
       align-items: center;  
@@ -8,3 +9,10 @@ div{
       flex-direction: column;
       align-items: center;
     }
+    span{
+      color:rgba(161, 151, 151, 0.555);
+    }
+    header{
+      margin-bottom: 30px;
+    }
+
