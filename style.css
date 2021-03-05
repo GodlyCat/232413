@@ -1,10 +1,53 @@
-div{
+a{
+    text-decoration: none;
+    color:#000;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+  margin-bottom: 10px;
+}
+
+section, 
+header,
+footer,
+figure{
       display: flex;
       flex-direction: column;
-      align-items: center;  
-    }
-    body{
+      align-items: center; 
+      margin-bottom: 20px;
+      }
+body{
       display: flex;
       flex-direction: column;
       align-items: center;
     }
+h6{
+      color:rgba(161, 151, 151, 0.555);
+    }
+header{
+      margin-bottom: 30px;
+    }
+.date-and-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  padding: 15px 0px;
+}
+body>footer{
+  background: rgb(127,110,203);
+  width: 100%;
+  margin: 0;
+}
+.git{
+font-size: 50px;
+color: wheat;
+}
+.date{
+  font-size: 30px;
+  color: wheat;
+  margin-bottom: 15px;
+}
